@@ -1,0 +1,44 @@
+{
+  "name": "boilerplate-generator",
+  "version": "1.0.0",
+  "description": "Boilerplate based on Sandrina Pereira (gulp php scss babel browserSync)",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Daniel Aguilar",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-polyfill": "^6.20.0",
+    "babel-preset-env": "^1.7.0",
+    "browser-sync": "^2.18.6",
+    "chalk": "^1.1.3",
+    "del": "^3.0.0",
+    "eslint": "3.x.x",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-cached": "^1.1.1",
+    "gulp-changed": "^1.3.2",
+    "gulp-clean-css": "^3.x.x",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-include": "^2.3.1",
+    "gulp-php2html": "^0.3.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sass-multi-inheritance": "^1.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-strip-debug": "^1.1.0",
+    "gulp-uglify": "^2.0.0",
+    "stylelint": "7.x.x",
+    "stylelint-config-standard": "16.x.x",
+    "yargs": "^6.6.0",
+    "fancylog": "^3.1.1"
+  }
+}
